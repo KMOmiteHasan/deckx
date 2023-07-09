@@ -237,6 +237,9 @@ footer p a:hover {
   html {
     font-size: 8px;
   }
+  body {
+    min-height: 100vh;
+  }
   .main-navbar {
     padding: 1rem 3.5rem;
     height: 10%;
