@@ -210,10 +210,27 @@ footer p a:hover {
   html {
     font-size: 9px;
   }
+  .error-container img {
+    height: 90%;
+    object-fit: cover;
+  }
 }
 @media (max-width: 768px) {
   html {
     font-size: 8px;
+  }
+  .main-navbar {
+    height: 12.5%;
+  }
+  .contact-container {
+    padding: 1rem 3.5rem;
+  }
+  footer {
+    height: 12.5%;
+  }
+  .error-container img {
+    height: 80%;
+    object-fit: cover;
   }
 }
 @media (max-width: 560px) {
@@ -221,14 +238,27 @@ footer p a:hover {
     font-size: 8px;
   }
   .main-navbar {
-    padding: 3rem 3.5rem;
+    padding: 1rem 3.5rem;
+    height: 10%;
   }
   .contact-container {
-    padding: 2rem 3.5rem;
+    padding: 1rem 3.5rem;
+  }
+  footer {
+    height: 15%;
+  }
+  .error-container img {
+    height: 70%;
+    object-fit: cover;
   }
 }
+
 @media (max-width: 400px) {
   html {
     font-size: 7px;
+  }
+  .error-container img {
+    height: 60%;
+    object-fit: cover;
   }
 }
