@@ -219,15 +219,11 @@ footer p a:hover {
   html {
     font-size: 8px;
   }
-  .main-navbar {
-    height: 12.5%;
-  }
+
   .contact-container {
     padding: 1rem 3.5rem;
   }
-  footer {
-    height: 12.5%;
-  }
+
   .error-container img {
     height: 80%;
     object-fit: cover;
@@ -246,15 +242,41 @@ footer p a:hover {
     right: 0;
   }
   .main-navbar {
-    padding: 1rem 3.5rem;
-    height: 10%;
+    padding: 2rem 3.5rem;
+    height: 12.5%;
+  }
+  .main-body {
+    height: 77.5%;
   }
   .contact-container {
     padding: 1rem 3.5rem;
   }
-  footer {
-    height: 15%;
+
+  .contact-container h1 {
+    font-size: 3.4rem;
+    margin-bottom: 1.2rem;
   }
+
+  .contact-container h2 {
+    font-size: 2.7rem;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+
+  .contact-container h3 {
+    font-size: 2.25rem;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .contact-container p {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+
   .error-container img {
     height: 70%;
     object-fit: cover;
